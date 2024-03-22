@@ -1,0 +1,40 @@
+/* Style for the puzzle grid */
+#theGame {
+    margin: 20px auto;
+    width: 80%; /* Adjust width as needed */
+}
+
+table {
+    width: 45%;
+    align-content:center;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+td {
+    width: 20px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    border: 1px double black;
+    text-align: center;
+}
+
+/* Style for puzzle square colors */
+td[data-row][data-col] {
+    cursor: pointer;
+}
+
+td[data-row][data-col][style*="background-color: grey"] {
+    background-color: grey;
+}
+
+td[data-row][data-col][style*="background-color: blue"] {
+    background-color: blue;
+}
+
+td[data-row][data-col][style*="background-color: white"] {
+    background-color: white;
+}
+
+td[data-row][data-col][style*="background-color: red"] {
+    background-color: red;
+}
