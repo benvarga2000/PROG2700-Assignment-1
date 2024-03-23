@@ -17,7 +17,7 @@
     // Function to fetch puzzle data from the API
     async function fetchPuzzleData() {
         try {
-            const response = await fetch('https://prog2700.onrender.com/threeinarow/sample');
+            const response = await fetch('https://prog2700.onrender.com/threeinarow/random');
             if (!response.ok) {
                 throw new Error('Failed to fetch puzzle data');
             }
